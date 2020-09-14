@@ -42,7 +42,7 @@ class :
      type_code : 12
      code : |1+
       procedure SendEmail(aperson is Person, message is string)
-      ConsoleWrite("Simulating sending an email to:  "+aperson.EmailAddress+CR)
+      ConsoleWrite("Simulating sending an email to:  "+aperson.EmailAddresse+CR)
       
      type : 458752
   procedure_templates : []

@@ -15,12 +15,12 @@ class :
   p_codes :
    -
      code : |1+
-      Person is a Class 
-      	implement IPerson 
-      	FirstName is string 
-      	LastName is string 
-      	PhoneNumber is string 
-      	EmailAddress is string 
+      Person is  Class  
+      	implemente IPerson
+      	_firstName is string 
+      	_lastName is string 
+      	_phoneNumber is string 
+      	_emailAddress is string
       end
      type : 131072
   procedures :
@@ -40,6 +40,79 @@ class :
       procedure Destructor()
       
      type : 655360
+  properties :
+   -
+     name : EmailAddresse
+     identifier : 0x1f5f8db5002f8f2f
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public EmailAddresse() : string
+         
+         result _emailAddress
+        type : 1966080
+      -
+        code : |1-
+         procedure public EmailAddresse(Value is string)
+         
+         _emailAddress=Value
+        type : 2031616
+     template_refs : []
+   -
+     name : FirstName
+     identifier : 0x1f5f8e6400303ab7
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public FirstName()  : string
+         
+         result _firstName
+        type : 1966080
+      -
+        code : |1-
+         procedure public FirstName(Value is string)
+         
+         _firstName=Value
+        type : 2031616
+     template_refs : []
+   -
+     name : LastName
+     identifier : 0x1f5f8e73003173f7
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public LastName() : string
+         
+         result _lastName
+        type : 1966080
+      -
+        code : |1-
+         procedure public LastName(Value is string)
+         
+         _lastName=Value
+        type : 2031616
+     template_refs : []
+   -
+     name : PhoneNumber
+     identifier : 0x1f5f8e7e00329ea1
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public PhoneNumber() : string
+         
+         result _phoneNumber
+        type : 1966080
+      -
+        code : |1-
+         procedure public PhoneNumber(Value is string)
+         
+         _phoneNumber=Value
+        type : 2031616
+     template_refs : []
   procedure_templates : []
   property_templates : []
  code_parameters :
