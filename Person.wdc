@@ -1,0 +1,53 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Person
+ major_version : 25
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x1f5f1bb2001333c5
+ internal_properties : BQAAAAUAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      Person is a Class 
+      	implement IPerson 
+      	FirstName is string 
+      	LastName is string 
+      	PhoneNumber is string 
+      	EmailAddress is string 
+      end
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     procedure_id : 2260555989282730949
+     type_code : 27
+     code : |1+
+      procedure Constructor()
+      
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 2260555989282796485
+     type_code : 28
+     code : |1+
+      procedure Destructor()
+      
+     type : 655360
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Class1
+resources :
+ string_res :
+  identifier : 0x1f5f1a2900063604
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
